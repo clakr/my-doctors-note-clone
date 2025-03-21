@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+  --color-vivid-blue: #2323fd;
+}
+
+@layer base {
+  svg {
+    @apply size-5;
+  }
+}
