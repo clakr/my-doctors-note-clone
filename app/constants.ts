@@ -17,6 +17,6 @@ export const steps: Step[] = [
     image: "/step-3.jpeg",
     heading: "100% Satisfaction Guarantee",
     description:
-      "Join hundreds of thousands of satisfied customers who trust us. Our sick leave plans are easy to use and designed to meet your needs quickly and efficiently!.",
+      "Join hundreds of thousands of satisfied customers who trust us. Our sick leave plans are easy to use and designed to meet your needs quickly and efficiently!",
   },
 ];
