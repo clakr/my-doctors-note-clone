@@ -1,3 +1,4 @@
+import { Button } from "@/app/components/button";
 import { ArrowRight } from "@/app/components/icons/arrow-right-icon";
 import { Secure } from "@/app/components/icons/secure-icon";
 import Image from "next/image";
@@ -18,13 +19,10 @@ export function Hero() {
           />
         </span>
       </h1>
-      <button
-        type="button"
-        className="bg-vivid-blue flex items-center justify-center gap-x-2 self-stretch rounded-xl p-4.5 font-semibold text-white"
-      >
+      <Button type="button">
         Get your Note Now
         <ArrowRight />
-      </button>
+      </Button>
       <span className="flex items-center justify-center gap-x-2 text-sm font-semibold text-white">
         <Secure />
         100% Risk-Free Money Back Guarantee
