@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section className="relative isolate flex flex-col items-center justify-center gap-y-4 bg-[url(/hero.jpeg)] bg-cover bg-center px-4 py-16 text-center before:absolute before:inset-0 before:-z-10 before:bg-black/60 md:min-h-[500px]">
       <h1 className="mb-4 max-w-[30ch] text-3xl font-bold text-white md:text-5xl lg:mb-8 lg:max-w-[20ch]">
-        Your Doctor's Note{" "}
+        Your Doctor&apos;s Note{" "}
         <span className="relative whitespace-nowrap">
           In 1 Minute, for $29,99!
           <Image

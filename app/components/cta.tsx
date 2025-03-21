@@ -15,8 +15,8 @@ export function CTA() {
           Money Back Guarantee!
         </h2>
         <p className="font-medium text-pretty md:text-lg">
-          We will refund 100% of your payment, in case you're not 100% satisfied
-          with our service.
+          We will refund 100% of your payment, in case you&apos;re not 100%
+          satisfied with our service.
         </p>
       </div>
     </section>

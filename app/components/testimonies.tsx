@@ -21,9 +21,9 @@ export function Testimonies() {
           </span>
         </h2>
         <p className="text-dark-gray max-w-[60ch] font-medium md:text-lg">
-          My Doctor's Note provides a fast, hassle-free solution for obtaining
-          excuse notes. Focus on your recovery while we take care of the
-          paperwork, delivering your note in minutes.
+          My Doctor&apos;s Note provides a fast, hassle-free solution for
+          obtaining excuse notes. Focus on your recovery while we take care of
+          the paperwork, delivering your note in minutes.
         </p>
       </div>
 
@@ -79,7 +79,7 @@ export function Testimonies() {
           <div className="flex items-center justify-between gap-x-4">
             <Image src="/avatar-group.png" alt="" width={140} height={30} />
             <strong className="text-turquoise-green font-bold">
-              We're ready to help!
+              We&apos;re ready to help!
             </strong>
           </div>
         </article>
