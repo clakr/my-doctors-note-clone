@@ -10,6 +10,6 @@
 
 @layer base {
   svg {
-    @apply size-5;
+    @apply size-5 md:size-8;
   }
 }

@@ -10,7 +10,7 @@ export function Button({
     <button
       {...props}
       className={twMerge(
-        "bg-vivid-blue flex items-center justify-center gap-x-2 self-stretch rounded-xl p-4.5 font-bold text-white",
+        "bg-vivid-blue flex w-full max-w-[350px] items-center justify-center gap-x-2 rounded-xl p-4.5 font-bold text-white md:text-lg",
         className,
       )}
     >

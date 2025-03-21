@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export function Testimonies() {
   return (
-    <section className="grid gap-y-8 p-4">
-      <div className="grid gap-y-8">
-        <h2 className="text-center text-3xl font-bold">
+    <section className="grid gap-x-4 gap-y-4 px-4 py-20 md:grid-cols-2">
+      <div className="mb-4 grid gap-y-8 md:col-span-full">
+        <h2 className="text-center text-3xl font-bold md:text-5xl">
           Get Peace of Mind With{" "}
           <span className="text-vivid-blue relative whitespace-nowrap">
             My Doctors Note
@@ -16,22 +16,23 @@ export function Testimonies() {
               alt=""
               width={200}
               height={6}
-              className="absolute top-[calc(100%+.5rem)] left-1/2 -translate-x-1/2"
+              className="absolute top-[calc(100%+.5rem)] left-1/2 w-4/5 -translate-x-1/2"
             />
           </span>
         </h2>
-        <p className="text-dark-gray font-medium">
+        <p className="text-dark-gray font-medium md:text-lg">
           My Doctor's Note provides a fast, hassle-free solution for obtaining
           excuse notes. Focus on your recovery while we take care of the
           paperwork, delivering your note in minutes.
         </p>
       </div>
-      <ul className="grid gap-y-4">
-        <li className="bg-light-blue flex flex-col gap-y-8 rounded-lg p-6">
+
+      <div className="flex flex-col gap-y-4">
+        <article className="bg-light-blue flex flex-col gap-y-8 rounded-lg p-6">
           <h3 className="text-2xl font-bold">
             Trusted by Thousands Across the USA
           </h3>
-          <ul className="text-dark-gray flex list-inside list-disc flex-col gap-y-4">
+          <ul className="text-dark-gray flex list-inside list-disc flex-col gap-y-4 md:text-lg">
             <li>
               <strong className="font-bold">Professional & Reliable - </strong>
               Includes key medical absence details in a format widely recognized
@@ -54,12 +55,12 @@ export function Testimonies() {
             <Image src="/fedex.svg" alt="" width={80} height={20} />
             <Image src="/starbucks.png" alt="" width={80} height={20} />
           </div>
-        </li>
-        <li className="bg-light-blue flex flex-col gap-y-8 rounded-lg p-6">
+        </article>
+        <article className="bg-light-blue flex flex-col gap-y-8 rounded-lg p-6">
           <h3 className="text-2xl font-bold">
             Customer Support That Puts You First
           </h3>
-          <ul className="text-dark-gray flex list-inside list-disc flex-col gap-y-4">
+          <ul className="text-dark-gray flex list-inside list-disc flex-col gap-y-4 md:text-lg">
             <li>
               <strong className="font-bold">Adjustable to Your Needs - </strong>
               Easily modify details to match your situation.
@@ -81,12 +82,14 @@ export function Testimonies() {
               We're ready to help!
             </strong>
           </div>
-        </li>
-        <li className="bg-light-blue flex flex-col gap-y-8 rounded-lg p-6">
+        </article>
+      </div>
+      <div className="flex flex-col gap-y-4">
+        <article className="bg-light-blue flex flex-col gap-y-8 rounded-lg p-6">
           <h3 className="text-2xl font-bold">
             Get Your Note In Under 1 Minute
           </h3>
-          <ul className="text-dark-gray flex list-inside list-disc flex-col gap-y-4">
+          <ul className="text-dark-gray flex list-inside list-disc flex-col gap-y-4 md:text-lg">
             <li>
               <strong className="font-bold">Skip the Wait - </strong>
               No appointments, no delays. Get what you need instantly, anytime.
@@ -101,25 +104,27 @@ export function Testimonies() {
               Receive your note directly in your inbox, ready to use.
             </li>
           </ul>
-        </li>
-        <li className="bg-light-blue flex flex-col gap-y-6 rounded-lg p-6 text-center">
+        </article>
+        <article className="bg-light-blue flex flex-col gap-y-6 rounded-lg p-6 text-center md:gap-y-12">
           <h3 className="text-2xl font-bold capitalize">
             The best price in the market
           </h3>
-          <b className="text-dark-gray text-2xl line-through">$42.99</b>
+          <b className="text-dark-gray text-2xl line-through md:text-4xl">
+            $42.99
+          </b>
           <strong className="text-6xl font-bold">$29.99</strong>
-          <b className="text-turquoise-green text-xl">
+          <b className="text-turquoise-green text-xl md:text-2xl">
             30% Discount - Limited Time!
           </b>
-        </li>
-      </ul>
+        </article>
+      </div>
 
-      <div className="flex flex-col gap-y-4">
+      <div className="mt-8 flex flex-col items-center gap-y-4 md:col-span-full">
         <Button type="button">
           Get your Doctors Note Now
           <ArrowRight />
         </Button>
-        <span className="text-dark-gray flex items-center justify-center gap-x-2 text-sm font-semibold">
+        <span className="text-dark-gray flex items-center justify-center gap-x-2 text-sm font-semibold md:text-lg">
           <Secure />
           100% Risk-Free Money Back Guarantee
         </span>

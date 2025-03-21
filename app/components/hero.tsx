@@ -5,17 +5,17 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="relative isolate flex flex-col items-center gap-y-4 bg-[url(/hero.jpeg)] bg-cover bg-center px-4 py-16 text-center before:absolute before:inset-0 before:-z-10 before:bg-black/60">
-      <h1 className="mb-4 text-3xl font-bold text-white">
-        Your Doctor's Note In{" "}
+    <section className="relative isolate flex flex-col items-center justify-center gap-y-4 bg-[url(/hero.jpeg)] bg-cover bg-center px-4 py-16 text-center before:absolute before:inset-0 before:-z-10 before:bg-black/60">
+      <h1 className="mb-4 max-w-[30ch] text-3xl font-bold text-white md:text-5xl">
+        Your Doctor's Note{" "}
         <span className="relative whitespace-nowrap">
-          1 Minute, for $29,99!
+          In 1 Minute, for $29,99!
           <Image
             src="/line-1.svg"
             alt=""
             width={250}
             height={6}
-            className="absolute top-[calc(100%+.5rem)] left-1/2 -translate-x-1/2"
+            className="absolute top-[calc(100%+.5rem)] left-1/2 w-4/5 -translate-x-1/2"
           />
         </span>
       </h1>
@@ -23,7 +23,7 @@ export function Hero() {
         Get your Note Now
         <ArrowRight />
       </Button>
-      <span className="flex items-center justify-center gap-x-2 text-sm font-semibold text-white">
+      <span className="flex items-center justify-center gap-x-2 text-sm font-semibold text-white md:text-lg">
         <Secure />
         100% Risk-Free Money Back Guarantee
       </span>
