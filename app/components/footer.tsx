@@ -3,7 +3,7 @@ import Image from "next/image";
 export function Footer() {
   return (
     <footer className="text-dark-gray">
-      <div className="grid gap-y-8 border-t border-neutral-200 p-8 md:grid-cols-2">
+      <div className="mx-auto grid max-w-6xl gap-y-8 border-t border-neutral-200 p-8 md:grid-cols-2 md:gap-x-4 lg:grid-cols-4">
         <div className="flex flex-col gap-y-4">
           <Image
             src="/logo.png"
@@ -42,7 +42,7 @@ export function Footer() {
           <li className="text-sm">Company Registration Number: 000000</li>
         </ul>
       </div>
-      <div className="border-t border-neutral-200 p-8 text-center text-xs">
+      <div className="border-t border-neutral-200 p-8 text-center text-xs md:p-12">
         &copy; 2025, My Doctors Note
       </div>
     </footer>

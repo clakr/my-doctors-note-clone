@@ -6,12 +6,12 @@ import { steps } from "@/app/constants";
 
 export function Steps() {
   return (
-    <section className="flex flex-col gap-y-8 px-4 py-8">
+    <section className="mx-auto flex max-w-6xl flex-col gap-y-8 px-4 py-8">
       <div className="flex flex-col items-center gap-y-4">
         <h2 className="max-w-[20ch] text-center text-3xl font-semibold md:text-5xl">
           Get An Online Doctor's Note In 3 Easy Steps
         </h2>
-        <p className="text-dark-gray font-medium md:text-lg">
+        <p className="text-dark-gray max-w-[60ch] font-medium md:text-lg">
           With our online platform, we make it quick and simple for you to
           obtain a doctors note, so you can focus on rest and recovery.
         </p>

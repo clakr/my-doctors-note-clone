@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Header() {
   return (
-    <header className="grid place-content-center py-4">
+    <header className="grid place-content-center py-4 lg:py-7">
       <Image
         src="/logo.png"
         alt=""

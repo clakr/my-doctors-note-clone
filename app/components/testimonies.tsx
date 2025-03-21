@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export function Testimonies() {
   return (
-    <section className="grid gap-x-4 gap-y-4 px-4 py-20 md:grid-cols-2">
-      <div className="mb-4 grid gap-y-8 md:col-span-full">
-        <h2 className="text-center text-3xl font-bold md:text-5xl">
+    <section className="mx-auto grid max-w-6xl gap-x-4 gap-y-4 px-4 py-20 md:grid-cols-2">
+      <div className="mb-4 grid place-items-center gap-y-8 md:col-span-full">
+        <h2 className="max-w-[20ch] text-center text-3xl font-bold md:text-5xl">
           Get Peace of Mind With{" "}
           <span className="text-vivid-blue relative whitespace-nowrap">
             My Doctors Note
@@ -20,7 +20,7 @@ export function Testimonies() {
             />
           </span>
         </h2>
-        <p className="text-dark-gray font-medium md:text-lg">
+        <p className="text-dark-gray max-w-[60ch] font-medium md:text-lg">
           My Doctor's Note provides a fast, hassle-free solution for obtaining
           excuse notes. Focus on your recovery while we take care of the
           paperwork, delivering your note in minutes.
