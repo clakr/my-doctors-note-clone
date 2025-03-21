@@ -1,7 +1,7 @@
-import { StepCard } from "@/app/components/StepCard";
 import { Button } from "@/app/components/button";
 import { ArrowRight } from "@/app/components/icons/arrow-right-icon";
 import { Secure } from "@/app/components/icons/secure-icon";
+import { StepCard } from "@/app/components/step-card";
 import { steps } from "@/app/constants";
 
 export function Steps() {

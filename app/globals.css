@@ -5,6 +5,7 @@
   --color-dark-gray: rgb(88, 88, 88);
   --color-light-blue: rgb(218, 233, 253);
   --color-mint-green: #b9eedf;
+  --color-turquoise-green: #00c48c;
 }
 
 @layer base {

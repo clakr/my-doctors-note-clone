@@ -15,7 +15,7 @@ export function Hero() {
             alt=""
             width={250}
             height={6}
-            className="absolute top-[calc(100%+.5rem)] left-4"
+            className="absolute top-[calc(100%+.5rem)] left-1/2 -translate-x-1/2"
           />
         </span>
       </h1>
